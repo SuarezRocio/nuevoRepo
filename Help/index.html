@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos.css">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <style>
+    .class01 {
+      background-color: #7e29f5;
+      margin: 1rem;
+    }
+
+
+
+
+
+
+    .class04 {
+      background-color: #aaabf3;
+      margin: 1rem;
+
+    }
+
+    .clase04 {
+      background-color: #be8ef0;
+    }
+
+    .class05 {
+      background-color: #aaabf3;
+      margin: 1rem;
+
+    }
+
+    .clase05 {
+      background-color: #be8ef0;
+    }
+
+    .class06 {
+      background-color: #aaabf3;
+      margin: 1rem;
+
+    }
+
+    .clase06 {
+      background-color: #be8ef0;
+    }
+
+    .class07 {
+      background-color: #7e29f5;
+      margin: 1rem;
+
+    }
+
+   
+
+    .placeH1 {
+      width: 15rem;
+      margin-top: 4rem;
+    }
+
+    .formulario {
+      width: 10rem;
+      height: 2rem;
+    }
+
+
+
+.class11{
+margin:1rem;
+  display: flex;
+  flex-direction: inline;}
+
+.comentario{
+  width: 55rem;
+  height: 5rem;
+  margin:1rem;
+  display: flex;
+  flex-direction: inline;
+}
+
+.boton01{
+  background-color: #7e29f5;
+}
+
+
+.header{
+  height: 4rem;
+  color: #7e29f5;
+
+}
+
+.grid03{
+display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+
+
+body{
+  background-image: url("svg/image01.svg"  );
+  background-repeat: no-repeat;
+  background-position: 50px 40px;
+  background-size: 100rem;
+}
+
+
+  </style>
+</head>
+
+<body>
+
+<!--
+GRID02
+
+1er id: id="search01"
+2do id: id="placeH1"
+3ero id: id="INPUT"
+-->
+
+  <div class="container">
+
+
+    <div class="grid03">
+      
+      <div class="header">
+  
+        <h2 class="nav">Files ></h2>
+  
+      </div>
+      
+      <div class="header">
+  
+        <h2 class="nav">Files ></h2>
+  
+      </div>
+      
+      <div class="header">
+  
+        <h2 class="nav">Files ></h2>
+  
+      </div>
+      
+      <div class="header">
+  
+        <h2 class="nav">Files ></h2>
+  
+      </div>
+  
+  </div>
+
+    <div class="row">
+      <div class="grid01">
+        <a id="search01" class="btn btn-primary class01" href="#" role="button">Buscar</a>
+        <input id="INPUT" class="placeH1" type="text" class="form-control" placeholder=""
+          aria-label="Example text with button addon" aria-describedby="button-addon1">
+      </div>
+
+<!--
+GRID02
+
+1er id: id="user"
+2do id: id="comentary"
+3ero id: id="search02"
+-->
+      <div class="grid02">
+       
+        <input class="class11"  id="user" class="formulario" type="text" class="form-control" placeholder="@Username"
+          aria-label="Username" aria-describedby="addon-wrapping">
+     
+          <textarea class="comentario" id="comentary"  class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+         
+     
+        </div>
+
+        <button  class="boton01"  id="search02" class="btn btn-primary class07" href="#" role="button">Enviar</button>
+  
+
+
+<!--       <div class="d-flex flex-column bd-highlight lg-2">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+        <label for="floatingTextarea w-25 h-25">Comentario</label>
+        <div class="d-grid gap-2 d-md-block">
+          <button class="btn class07" type="button">Enviar</button>
+
+        </div>
+-->
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+  <!-- CENCELACIONES/PREGUNTAS FRECUENTAS-->
+
+<!--
+GRID02
+
+1er id: id="div01-containerr"
+2do id: id="div01"
+3ero id: id="titulo01"
+4to id: id="search03"
+5to id: id="style01"
+6to id: id="parrafe01"
+
+-->
+  
+
+
+  <div id="div01-container" class="accordion accordion-flush" id="accordionFlushExample">
+    <div id="div01" class="accordion-item class04">
+      <h2 id="titulo01" class="accordion-header" id="flush-headingOne">
+        <button id="search03" class="accordion-button collapsed clase04" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+          Cancelaciones y Devoluciones
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+        data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body"><code> </code>La tolerancia de atraso para la reseva sin abono anticipado es de 40'.
+          En caso de cancelacion sin aviso previo, se le cobra un extra.</div>
+      </div>
+    </div>
+
+<!--
+GRID03
+
+1er id: id="div02-container"
+2do id: id="titulo02"
+4to id: id="search04"
+5to id: id="style02"
+6to id: id="parrafe02"
+
+-->
+  
+    <div id="div02-container" class="accordion-item class05">
+      <h2  id="div02" class="accordion-header" id="flush-headingTwo">
+        <button id="search04" class="accordion-button collapsed clase05" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+          Info de Socio
+        </button>
+      </h2>
+      <div   id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+        data-bs-parent="#accordionFlushExample">
+        <div  class="accordion-body">Todos los datos son reservados. El registro de dni es confidencial, es enviado en el
+          momento de la reserva, para el momento de checking, conferir, nombre, edad, y +18 <code> </code></div>
+      </div>
+    </div>
+
+<!--
+GRID03
+
+1er id: id="div03-container
+2do id: id="titulo03"
+4to id: id="search05"
+5to id: id="style03"
+6to id: id="parrafe03"
+
+-->
+
+    <div  id="div03-container" class="accordion-item class06">
+      <h2 id="titulo03" class="accordion-header" id="flush-headingThree">
+        <button id="search05" class="accordion-button collapsed clase06" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+          Preguntas frecuentas
+        </button>
+      </h2>
+      <div  id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+        data-bs-parent="#accordionFlushExample">
+        <div  class="accordion-body">Como puedo adherirme a la app? Logueate en el acceso de Login Usuario
+          <code> </code>y completar el formulario de login con los datos de email o nombre de usuario, contraseña y
+          numero de telefono. Donde te llegara un aviso a tu numero de whazzap, que estas loguead@ en la app con un
+          numero de verificacion para confirmar acceso.</div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  </div>
+
+
+
+
+
+
+</body>
+
+</html>
